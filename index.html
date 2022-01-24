@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challengue Oracle ONE</title>
+</head>
+<body>
+    <div class="main">
+        <h2>Encriptador de texto</h2>
+        <div class="contenedor">
+            <div class="encriptador">
+                <h2>Encriptador</h2>
+                <p>Por favor, solo ingresar letras minusculas, sin acentos.</p>
+                <input type="text" id="mensaje-entrada" placeholder="Ingrese el texto a encriptar" id="text-encriptado"/>
+                <p id="validar-texto"></p>
+                <div class="buttons">
+                    <button class="btn" onclick="encriptarMensaje()">Encriptar</button>
+                    <button class="btn" onclick="desencriptarMensaje()">Desencriptar</button>
+                    
+                </div>
+            </div>
+            <div class="encriptador">
+                <h2>Mensaje encriptado</h2>
+                <br/>
+                <input type="text" id="mensaje-salida" placeholder="Aquí aparecera tu mensaje encriptado" />
+                <p id="copiar-texto"></p>
+                <button class="btn" id="btn-copiar" onclick="copiarMensaje()">Copiar</button>
+            </div>
+        </div>
+        <footer>
+            By <a href="https://www.linkedin.com/in/william-ancizar-toro-benavides-b60a07129">William Toro</a><br>
+            Todos los derechos reservados 2022&copy;
+        </footer>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.encriptador {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding-left: 50px;
+    width: 400px;
+    padding-right: 50px;
+    border-radius: 15px;  
+}
+
+input {
+    border: none;
+    width: 100%;
+    height: 70px;
+    border-radius: 7px;
+    font-size: 20px;
+
+}
+
+.btn {
+    border: none;
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    background-color: yellowgreen;
+    border: none;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.btn:hover{
+    background-color: turquoise;
+}
+
+h2 {
+    margin: 10px;
+}
+ 
+P {
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+    width: initial;
+}
+
+#copiar-texto {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+#validar-texto {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
