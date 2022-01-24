@@ -92,3 +92,20 @@ footer {
 a {
     text-decoration: none;
 }
+
+@media (max-width: 600px) {
+    
+    .encriptador {
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        padding-left: 50px;
+        width: 300px;
+        padding-right: 50px;
+        border-radius: 15px;  
+    }
+
+    input {
+        font-size: 15px;
+    }
+}
